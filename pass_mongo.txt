@@ -1,0 +1,6 @@
+user: santi
+pass:jfORbN7YCpNgGWl5
+
+URL MONGO ATLAS CONNECT WITH COMPASS
+
+mongodb+srv://santi:jfORbN7YCpNgGWl5@cluster0-0syrz.mongodb.net/test

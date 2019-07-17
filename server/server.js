@@ -21,7 +21,9 @@ app.use(require('./route/user'))
 
 
 //SE CONNECTA LAS BASES DE DATOS DE MONGO
-  mongoose.connect('mongodb://localhost:27017/cafe', (err,res)=>{
+  mongoose.connect( process.env.URLDB , 
+                    {useNewUrlParser:true,useCreateIndex:true}
+                    ,(err,res)=>{
     if(err)throw err;
 
     console.log("BD ONLINE")
